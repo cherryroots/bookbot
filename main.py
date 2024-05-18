@@ -11,7 +11,7 @@ def main():
 def sort_on(dict: dict):
     return dict["count"]
 
-def get_word_count(text: str):
+def get_word_count(text: str) -> int:
     words = text.split()
     return len(words)
 
